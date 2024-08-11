@@ -77,8 +77,8 @@ namespace Hafta4_Kapanis
             public override void BilgileriYazdir()
             {
                 base.BilgileriYazdir();
-                Console.WriteLine($"USB Giriş Sayısı: " + UsbGirisSayisi);
-                Console.WriteLine($"Bluetooth: " + Bluetooth);
+                Console.WriteLine("USB Giriş Sayısı: " + UsbGirisSayisi);
+                Console.WriteLine("Bluetooth: " + Bluetooth);
             }
 
             public override void UrunAdiGetir()
